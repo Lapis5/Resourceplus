@@ -15,7 +15,7 @@
 			"Wine"
 		],
 		"uniques": [
-			"Provides [2] [Wine]"
+			"Provides [2] [Wine]" "[+1 Gold] from [Hops] tiles [in this city]""[+1 Gold from [Wine] tiles [in this city]"
 		],
 		"requiredTech": "Calendar"
 	},
@@ -34,7 +34,7 @@
 			"Herbs"
 		],
 		"uniques": [
-		"[+50]% [Culture] [in this city]"
+		"[+50]% [Culture] [in this city]""[+1 Culture] from [Tea] tiles [in this city]""[+1 Culture] from [Herbs] tiles [in this city]"
 		],
 		"requiredTech": "Acoustics"
 	},
@@ -55,7 +55,7 @@
 			"Tobacco"
 		],
 		"uniques": [
-			"Free Social Policy"
+			"Free Social Policy""[+1 Gold, +1 Production] from [Coffee] tiles [in this city]""[+1 Gold, +1 Production] from [Tobacco] tiles [in this city]"
 		],
 		"requiredTech": "Economics"
 	},
@@ -75,6 +75,9 @@
       "happiness": 1
     },
     "hurryCostModifier": 20,
+	  "uniques": [
+		"[+2 Gold, +1 Happiness] from [Gold] tiles [in this city]""[+2 Gold, +1 Happiness] from [Diamond] tiles [in this city]""[+2 Gold, +1 Happiness] from [Amber] tiles [in this city]""[+2 Gold, +1 Happiness] from [Jade] tiles [in this city]"
+		],
     "requiredTech": "Machinery"
   },
   {
@@ -92,6 +95,9 @@
       "production": 2
     },
     "hurryCostModifier": 20,
+		"uniques": [
+		"[+2 Production] from [Cotton] tiles [in this city]""[+2 Production] from [Silk] tiles [in this city]""[+2 Production] from [Furs] tiles [in this city]""[+2 Production] from [Dyes] tiles [in this city]"
+		],
     "requiredTech": "Guilds"
   },
   {
@@ -103,6 +109,9 @@
       "happiness": 1
     },
     "hurryCostModifier": 20,
+		"uniques": [
+		"[+1 Culture, +1 Happiness] from [Cotton] tiles [in this city]""[+1 Culture, +1 Happiness] from [Silk] tiles [in this city]""[+1 Culture, +1 Happiness] from [Furs] tiles [in this city]""[+1 Culture, +1 Happiness] from [Dyes] tiles [in this city]"
+		],
     "requiredBuilding": "Textile Mill",
     "requiredTech": "Economics"
   },
@@ -124,7 +133,7 @@
 			"Olives",
 			"Spices "
 		],
-		"uniques": [ "[+1 Gold] from each Trade Route","Provides 1 extra copy of each improved luxury resource near this City","Cost increases by [50] per owned city"	],
+		"uniques": [ "[+1 Gold] from each Trade Route","Provides 1 extra copy of each improved luxury resource near this City","Cost increases by [50] per owned city"]
 		"requiredTech": "Navigation"
 	},
 	{
@@ -156,7 +165,7 @@
 			"food": 1
 		},
 		"uniques": [
-			"Must be next to [Tundra]","[20]% Food is carried over after population increases [in this city]","[+2 Food] from [Trading Settlement] tiles in this city"],
+			"Must be next to [Tundra]","[20]% Food is carried over after population increases [in this city]","[+2 Food] from [Trading Settlement] tiles [in this city]"],
 		"requiredTech": "Trapping"
 	},
 	{
@@ -183,8 +192,8 @@
 "requiredNearbyImprovedResources": [
 "Camel"],
 		"uniques": [
-			"Must be next to [Desert]","[+3 Food] from [Land Trade Route (Food)] tiles in this city",
-        	"[+3 Gold] from [Land Trade Route (Gold)] tiles in this city"
+			"Must be next to [Desert]","[+3 Food] from [Land Trade Route (Food)] tiles [in this city]",
+        	"[+3 Gold] from [Land Trade Route (Gold)] tiles [in this city]"
 ],
 		"requiredTech": "Mathematics"
 	},
@@ -218,30 +227,32 @@
         "food": 2,
         "maintenance": 1,
         "hurryCostModifier": 25,
-        "uniques": ["[+1 Food] from [Taro] tiles in this city",
-		"[+1 Food] from [Rice] tiles in this city",
-		"[+1 Food] from [Wheat] tiles in this city",
-                        "[+1 Food] from [Potato] tiles in this city",
-		"[+3 Food] from [Land Trade Route (Food)] tiles in this city",
-        	"[+3 Food] from [Sea Trade Route (Food)] tiles in this city"],
+        "uniques": [
+		"[+1 Food] from [Taro] tiles [in this city]",
+		"[+1 Food] from [Rice] tiles [in this city]",
+		"[+1 Food] from [Wheat] tiles [in this city]",
+    "[+1 Food] from [Potato] tiles [in this city]",
+		"[+3 Food] from [Land Trade Route (Food)] tiles [in this city]",
+    "[+3 Food] from [Sea Trade Route (Food)] tiles [in this city]"
+				],
         "requiredTech": "Pottery"
     },
     {
         "name": "Lighthouse",
         "hurryCostModifier": 25,
         "maintenance": 1,
-        "uniques": ["Must be next to [Coast]","[+1 Food] from [Coast] tiles in this city",
-        	"[+1 Food] from [Ocean] tiles in this city","[+1 Food] from [Fish] tiles in this city","[+1 Food] from [Cod] tiles in this city"],
+        "uniques": ["Must be next to [Coast]","[+1 Food] from [Coast] tiles [in this city]",
+        	"[+1 Food] from [Ocean] tiles in this city","[+1 Food] from [Fish] tiles [in this city]","[+1 Food] from [Cod] tiles [in this city]"],
         "requiredTech": "Optics"
     },
     {
         "name": "Canal",
         "hurryCostModifier": 25,
         "maintenance": 2,
-        "happiness": 4,
+        "happiness": 1,
        "cost": 75,
         "uniques": ["Must be next to [Coast]","Connects trade routes over water",
-            "[+1 Gold] from [Sea Trade Route (Production)] tiles in this city","[+1 Gold] from [Sea Trade Route (Gold)] tiles in this city"],
+            "[+1 Gold] from [Sea Trade Route (Production)] tiles [in this city]","[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"],
         "cannotBeBuiltWith": "Lighthouse",
         "requiredTech": "Architecture"
     },
@@ -253,7 +264,7 @@
         "requiredNearbyImprovedResources": ["Camel"],
         "hurryCostModifier": 25,
         "uniques": ["[15]% Production when constructing [Mounted] units [in this city]",
-        	"[+1 Production] from [Camel] tiles in this city","Must be next to [Desert]","All newly-trained [Mounted] units in this city receive the [Desert Warrior] promotion]"],
+        	"[+1 Production] from [Camel] tiles [in this city]","Must be next to [Desert]","All newly-trained [Mounted] units [in this city] receive the [Desert Warrior] promotion]"],
 "cannotBeBuiltWith":  "Stable",
         "requiredTech": "Horseback Riding"
     }
