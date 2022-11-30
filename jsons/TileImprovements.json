@@ -16,11 +16,11 @@
 		"name": "Trading Outpost",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow"],
 		"turnsToBuild": 7,
-		"gold": -4,
+		"gold": -1,
 		"techRequired": "Guilds",
 		"improvingTech": "Economics",
-		"improvingTechStats": {"gold": 2},
-	    "uniques": ["[+2 Gold] for each adjacent [Road]","[+3 Gold] for each adjacent [Railroad]"]
+		"improvingTechStats": {"gold": 1},
+	    "uniques": ["[+1 Gold] for each adjacent [Road]","[+2 Gold] for each adjacent [Railroad]"]
 	},
 	{
 		"name": "Trading Settlement",
