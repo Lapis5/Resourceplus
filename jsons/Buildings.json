@@ -15,7 +15,7 @@
 			"Wine"
 		],
 		"uniques": [
-			"Provides [2] [Wine]" "[+1 Gold] from [Hops] tiles [in this city]""[+1 Gold from [Wine] tiles [in this city]"
+			"Provides [2] [Wine]""[+1 Gold] from [Hops] tiles [in this city]""[+1 Gold from [Wine] tiles [in this city]"
 		],
 		"requiredTech": "Calendar"
 	},
