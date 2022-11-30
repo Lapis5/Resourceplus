@@ -16,7 +16,7 @@
 		"name": "Trading Outpost",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow"],
 		"turnsToBuild": 7,
-		"gold": -4,
+		"gold": -3,
 		"techRequired": "Guilds",
 		"improvingTech": "Economics",
 		"improvingTechStats": {"gold": 1},
