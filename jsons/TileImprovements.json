@@ -20,7 +20,7 @@
 		"techRequired": "Guilds",
 		"improvingTech": "Economics",
 		"improvingTechStats": {"gold": 1},
-	    "uniques": ["[+1 Gold] for each adjacent [Road]","[+1 Gold] for each adjacent [Railroad]"]
+	    "uniques": ["[+1 Gold] for each adjacent [Road]","[+1 Gold] for each adjacent [Railroad]""[+1 Production] for each adjacent [Railroad]"]
 	},
 	{
 		"name": "Trading Settlement",
