@@ -76,7 +76,7 @@
     },
     "hurryCostModifier": 20,
 	  "uniques": [
-		"[+2 Gold, +1 Happiness] from [Gold] tiles [in this city]","[+2 Gold, +1 Happiness] from [Diamond] tiles [in this city]","[+2 Gold, +1 Happiness] from [Amber] tiles [in this city]","[+2 Gold, +1 Happiness] from [Jade] tiles [in this city]"
+		"[+2 Gold, +1 Happiness] from [Gold Ore] tiles [in this city]","[+2 Gold, +1 Happiness] from [Diamond] tiles [in this city]","[+2 Gold, +1 Happiness] from [Amber] tiles [in this city]","[+2 Gold, +1 Happiness] from [Jade] tiles [in this city]"
 		],
     "requiredTech": "Machinery"
   },
