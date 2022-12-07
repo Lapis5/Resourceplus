@@ -15,7 +15,7 @@
 			"Wine"
 		],
 		"uniques": [
-			"Provides [2] [Wine]","[+1 Gold] from [Hops] tiles [in this city]","[+1 Gold from [Wine] tiles [in this city]"
+			"Provides [2] [Wine]","[+20]% [Culture] [in this city]","[+1 Gold] from [Hops] tiles [in this city]","[+1 Gold from [Wine] tiles [in this city]"
 		],
 		"requiredTech": "Calendar"
 	},
@@ -34,7 +34,7 @@
 			"Herbs"
 		],
 		"uniques": [
-		"[+50]% [Culture] [in this city]","[+1 Culture] from [Tea] tiles [in this city]","[+1 Culture] from [Herbs] tiles [in this city]"
+		"Provides [2] [Tea]","[+20]% [Culture] [in this city]","[+1 Culture] from [Tea] tiles [in this city]","[+1 Culture] from [Herbs] tiles [in this city]"
 		],
 		"requiredTech": "Acoustics"
 	},
@@ -55,7 +55,7 @@
 			"Tobacco"
 		],
 		"uniques": [
-			"[+50]% [Culture] [in this city]","[+1 Gold, +1 Production] from [Coffee] tiles [in this city]","[+1 Gold, +1 Production] from [Tobacco] tiles [in this city]"
+			"Provides [2] [Coffee]","[+20]% [Culture] [in this city]","[+1 Gold, +1 Production] from [Coffee] tiles [in this city]","[+1 Gold, +1 Production] from [Tobacco] tiles [in this city]"
 		],
 		"requiredTech": "Economics"
 	},
@@ -253,7 +253,6 @@
        "cost": 75,
         "uniques": ["Must be next to [Coast]","Connects trade routes over water",
             "[+1 Gold] from [Sea Trade Route (Production)] tiles [in this city]","[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"],
-        "cannotBeBuiltWith": "Lighthouse",
         "requiredTech": "Architecture"
     },
 
