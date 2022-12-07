@@ -178,7 +178,7 @@
 			"food": 1
 		},
 		"uniques": [
-			"Must be next to [Desert]","[+2 Food] from [Oasis] tiles in this city","[20]% Food is carried over after population increases [in this city]"],
+			"Must be next to [Desert]","[+2 Food] from [Oasis] tiles in this city","[10]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Mathematics"
 	},
         {"name": "Desert Trading Center",
@@ -212,6 +212,7 @@
     "cost": "450",
     "maintenance": 2,
     "production": 3,
+    "gold": 3
     "requiredNearbyImprovedResources": [
       "Oil"
     ],
