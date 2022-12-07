@@ -251,7 +251,7 @@
         "maintenance": 2,
         "happiness": 1,
        "cost": 75,
-        "uniques": ["Must be next to [Coast]","Connects trade routes over water",
+        "uniques": ["Must be on [River]","Must be next to [Coast]","Connects trade routes over water",
             "[+1 Gold] from [Sea Trade Route (Production)] tiles [in this city]","[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"],
         "requiredTech": "Architecture"
     },
