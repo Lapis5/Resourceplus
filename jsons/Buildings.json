@@ -140,14 +140,14 @@
 		"name": "Liquor",
 		"hurryCostModifier": 25,
 		"happiness": 3,
-		"gold": 1,
-		"production": 3,
+		"gold": 2,
+		"production": -1,
 		"cost": 300,
 		"resourceBonusStats": {
 			"gold": 2
 		},
 		"requiredBuilding": "Brewery",
-		"uniques": ["[-15]% unhappiness from [Population] [in this city]"],
+		"uniques": ["[-10]% unhappiness from [Population] [in this city]"],
 		"requiredTech": "Chemistry"
 	},
 	{
@@ -165,7 +165,7 @@
 			"food": 1
 		},
 		"uniques": [
-			"Must be next to [Tundra]","[20]% Food is carried over after population increases [in this city]","[+2 Food] from [Trading Settlement] tiles [in this city]"],
+			"Must be next to [Tundra]","[10]% Food is carried over after population increases [in this city]","[+2 Food] from [Trading Settlement] tiles [in this city]"],
 		"requiredTech": "Trapping"
 	},
 	{
@@ -192,8 +192,7 @@
 "requiredNearbyImprovedResources": [
 "Camel"],
 		"uniques": [
-			"Must be next to [Desert]","[+3 Food] from [Land Trade Route (Food)] tiles [in this city]",
-        	"[+3 Gold] from [Land Trade Route (Gold)] tiles [in this city]"
+			"Must be next to [Desert]","[+3 Food] from [Land Trade Route (Food)] tiles [in this city]","[+3 Gold] from [Land Trade Route (Gold)] tiles [in this city]"
 ],
 		"requiredTech": "Mathematics"
 	},
@@ -204,7 +203,7 @@
 		"maintenance": 2,
 		"cost": 100,
 		"requiredBuilding": "Lighthouse",
-		"uniques": ["Must have an owned [Bay] within [2] tiles","Can only be built in coastal cities","[30]% Production when constructing [Water] units [in this city]"],
+		"uniques": ["Must have an owned [Bay] within [2] tiles","Can only be built in coastal cities","[+1 Food] from [Bay] tiles [in this city]","[15]% Production when constructing [Water] units [in this city]"],
 		"requiredTech": "Compass"
 	},
 	{
@@ -212,13 +211,13 @@
     "cost": "450",
     "maintenance": 2,
     "production": 3,
-    "gold": 3
     "requiredNearbyImprovedResources": [
       "Oil"
     ],
     "resourceBonusStats": {
       "gold": 3
     },
+    "uniques": "[+1 Gold] from [Oil] tiles in this city"],
     "hurryCostModifier": 20,
     "requiredTech": "Biology"
   },
